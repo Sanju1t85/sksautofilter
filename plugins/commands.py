@@ -52,7 +52,7 @@ async def terabox_handler(_, event: Message):
             ],
 
              [InlineKeyboardButton("Mdisk", callback_data="Mdisk_msg"),
-             InlineKeyboardButton('Watch Photo', url='https://telegra.ph/file/abdc2f0e2d59f6bb67fa5.jpg')
+             InlineKeyboardButton('Watch Photo', url='https://te.legra.ph/file/a4f1141e87a46ca631c0e.jpg')
              ]
         ])
     )
@@ -68,7 +68,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/Cynitesupport')
+            InlineKeyboardButton('Support', url=f'https://t.me/Skssupports')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
