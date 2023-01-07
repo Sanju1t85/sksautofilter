@@ -38,7 +38,7 @@ async def mdisk_handler(_, event: Message):
             ],
 
              [InlineKeyboardButton("TeraBox", callback_data="Terabox_msg"),
-             InlineKeyboardButton('Watch Video', url='https://t.me/CyniteBackup/17')
+             InlineKeyboardButton('Watch Video', url='https://t.me/sksbackup1')
              ]
         ])
     )
